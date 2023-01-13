@@ -1,8 +1,10 @@
-function show_hide() {
-    var click = document.getElementsByClassName("nav-links");
-    if (click.style.display === "none") {
-        click.style.display = "block";
-    } else {
-        click.style.display = "none";
-    }
+function myFunction() {
+    document.getElementById("nav-links").classList.toggle("active");
 }
+
+// const toggleButton = document.getElementsById("toggle-button")[0]
+const navlinks = document.getElementsById("nav-links")[0]
+
+// toggleButton.addEventListener("click", () => {
+//     navlinks.classList.toggle("active")
+// })
