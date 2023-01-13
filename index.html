@@ -29,6 +29,9 @@
    <!-- Main Local CSS Files -->
    <link rel="stylesheet" href="./assets/css/index.css">
 
+   <!-- Main Local JS Files -->
+   <script src="./assets/js/main.js"></script>
+
 </head>
 
 <body>
@@ -40,7 +43,9 @@
          <nav id="navbar" class="navbar">
             <div class="mob-view">
                <h1 class="brand-name ui"> <a href="index.html">FITNESS LAB</a> </h1>
-               <a href="#" class="toggle-button"><i class="bars big icon"></i></a>
+               <a href="#">
+                  <button onclick={show_hide()} class="toggle-button"><i class=" bars big icon"></i></button>
+               </a>
             </div>
 
             <div class="nav-links">
@@ -51,9 +56,7 @@
                   <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                </ul>
                <!-- .navbar -->
-               <!-- <a href="#" class="toggle-button"><i class="bars large icon"></i></a> -->
             </div>
-
          </nav>
 
    </header>
