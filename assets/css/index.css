@@ -47,7 +47,7 @@ h6 {
 
 #header .header {
   background-color: #000000;
-  padding: 0 15px;
+  padding: 0 25px;
 }
 
 #header.header-scrolled,
@@ -149,25 +149,29 @@ h6 {
 }
 
 #hero .hero {
-  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
   height: fit-content;
   padding: 40px;
   text-align: left;
-  /* background-color: chartreuse; */
+}
+
+#hero .hero h1 {
+  font-size: 65px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  color: rgb(0, 0, 0);
+  width: fit-content;
 }
 
 #hero .hero p {
-  font-size: 50px;
-  /* font-style: italic; */
-  font-weight: 600;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(0, 0, 0);
-}
-
-#hero span {
+  margin-top: -30px;
+  width: fit-content;
   font-family: "Jost", sans-serif;
-  font-size: 55px;
   font-weight: 600;
+  font-size: 19px;
+  text-indent: 4px;
 }
 
 
