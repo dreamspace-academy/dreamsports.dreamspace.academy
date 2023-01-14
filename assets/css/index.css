@@ -142,21 +142,32 @@ h6 {
 
 #hero {
   padding: 100px 60px 60px 60px;
-  height: fit-content;
+  height: 100%;
   color: #000000;
   background-image: url("../img/a2.jpg");
   background-attachment: fixed;
 }
 
 #hero .hero {
+  margin-top: 13%;
   height: fit-content;
-  padding: 10px;
+  padding: 40px;
   text-align: left;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 
 #hero .hero p {
+  font-size: 50px;
+  /* font-style: italic; */
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
+}
+
+#hero span {
+  font-family: "Jost", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
 }
 
 
