@@ -89,7 +89,7 @@ h6 {
 
 .navbar .nav-links li a:hover {
   transition: 0.3s;
-  background-color: red;
+  background-color: rebeccapurple;
 }
 
 .toggle-button {
@@ -158,7 +158,7 @@ h6 {
 }
 
 #hero .hero h1 {
-  font-size: 65px;
+  font-size: 75px;
   font-weight: 600;
   font-family: "Jost", sans-serif;
   color: rgb(0, 0, 0);
@@ -170,7 +170,7 @@ h6 {
   width: fit-content;
   font-family: "Jost", sans-serif;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 22px;
   text-indent: 4px;
 }
 
@@ -181,17 +181,51 @@ h6 {
 
 #about {
   position: relative;
-  width: 100%;
   height: fit-content;
-  background-color: aqua;
-  padding: 60px;
+  padding: 90px;
+  background-color: rebeccapurple;
+  /*rgb(107, 101, 171)*/
 }
 
 #about .about {
   height: fit-content;
-  padding: 10px;
-  background-color: rgb(209, 55, 176);
+  padding: 40px 70px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
+
+#about .abt-header {
+  text-align: center;
+  font-size: 40px;
+}
+
+#about .abt-cont {
+  padding: 0 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+#about .about .box {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rebeccapurple;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#about .about .box h1 {
+  width: 1000px;
+  /* border: solid 2px red; */
+}
+
+#about .about p {
+  text-align: justify;
+  /* border: solid 2px red; */
+}
+
 
 
 /*--------------------------------------------------------------
