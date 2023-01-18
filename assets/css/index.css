@@ -250,11 +250,39 @@ h6 {
 
 
 /*--------------------------------------------------------------
-# Header
+# Contact us
 --------------------------------------------------------------*/
+#contact {
+  position: relative;
+  padding: 60px;
+  width: 100%;
+  height: fit-content;
+  background-color: aqua;
+}
+
+#contact .contact {
+  padding: 10px;
+  background-color: #fff;
+}
+
+
 /*--------------------------------------------------------------
-# Header
+# Footer
 --------------------------------------------------------------*/
+#footer {
+  position: relative;
+  padding: 60px;
+  width: 100%;
+  height: fit-content;
+  background-color: chocolate;
+}
+
+#footer .footer {
+  padding: 10px;
+  background-color: #fff;
+}
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
