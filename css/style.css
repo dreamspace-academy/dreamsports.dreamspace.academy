@@ -229,7 +229,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    /* background-image: url(../images/banner-bg.png); */
     height: auto;
     background-size: 100%;
     padding: 0px 0px 20px 0px;
@@ -343,7 +343,8 @@ button {
 
 .header_main {
     width: 100%;
-    background-image: url(../images/header-bg.png);
+    /* background-image: url(../images/a2.jpg); */
+    background-color: #000000;
     background-size: 100%;
     padding: 10px 0px 0px 0px;
 }
@@ -356,8 +357,16 @@ button {
 
 .banner_section {
     width: 100%;
-    float: left;
-    padding-bottom: 305px;
+    height: 70vh;
+    background-color: #000;
+}
+
+#carouselExampleSlidesOnly {
+    padding: 30px;
+    margin: auto;
+    height: max-content;
+    text-align: center;
+
 }
 
 .banner_taital {
@@ -559,7 +568,7 @@ button {
 .about_img {
     width: 600px;
     float: left;
-    margin: 70px 0 ;
+    margin: 70px 0;
 }
 
 
