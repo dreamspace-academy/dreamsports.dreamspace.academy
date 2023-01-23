@@ -157,6 +157,9 @@ h6 {
     height: fit-content;
     padding: 40px;
     align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /* position: fixed; */
     /* text-align: center; */
     /* justify-content: space-between; */
     /* background-color: aqua; */
@@ -168,6 +171,7 @@ h6 {
     font-family: "Jost", sans-serif;
     color: rgb(0, 0, 0);
     width: fit-content;
+    position: fixed;
 }
 
 #hero .hero p {
@@ -177,6 +181,7 @@ h6 {
     font-weight: 600;
     font-size: 22px;
     text-indent: 4px;
+    position: fixed;
 }
 
 
@@ -243,13 +248,26 @@ h6 {
     padding: 60px;
     width: 100%;
     height: fit-content;
-    background-color: rgb(59, 59, 62);
+    background-color: #000000;
 }
 
 #team .team {
     height: fit-content;
-    padding: 10px;
-    background-color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#team .team h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+#team .team .details {
+    text-align: center;
+    margin-top: 50px;
+
 }
 
 
