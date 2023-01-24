@@ -68,7 +68,7 @@ h6 {
 
 .navbar .brand-name {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 560;
     margin: 15px;
 }
@@ -308,16 +308,17 @@ h6 {
 #contact .box1 {
     background-color: rgba(254, 63, 0, 0.874);
     width: 100%;
-    padding: 50px 20px;
+    padding: 30px 20px;
     text-align: left;
     box-shadow: grey;
 }
 
 #contact .box2 {
     background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(254, 63, 0, 0.874);
     color: #000000;
     width: 100%;
-    padding: 50px 20px;
+    padding: 30px 20px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -351,8 +352,50 @@ h6 {
 
 #footer .footer {
     padding: 10px;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    /* text-align: center; */
 }
+
+#footer h1,
+p {
+    /* background-color: red; */
+    text-align: center;
+}
+
+#footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -39px;
+}
+
+#footer li a {
+    color: rgba(255, 255, 255, 0.874);
+    font-size: 16px;
+}
+
+#footer li a:hover {
+    color: rgb(254, 63, 0, 0.874);
+    font-size: 16px;
+}
+
+#footer .footer .lists {
+    /* background-color: rgb(255, 255, 255); */
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
 
 
 /*--------------------------------------------------------------
