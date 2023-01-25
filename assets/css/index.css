@@ -148,6 +148,7 @@ h6 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
 }
 
 #hero .hero {
@@ -255,22 +256,29 @@ h6 {
     height: fit-content;
     padding: 20px;
     justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
 }
 
 #team .team h1 {
     text-align: center;
     font-size: 45px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding-bottom: 30px;
 }
 
 #team .team .details {
     text-align: center;
     margin-top: 50px;
-
+    color: #fff;
 }
 
-
+#team .team .team-card {
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: auto;
+    /* background-color: aquamarine; */
+}
 
 
 /*--------------------------------------------------------------
@@ -344,7 +352,7 @@ h6 {
 --------------------------------------------------------------*/
 #footer {
     position: relative;
-    padding: 60px;
+    padding: 60px 60px;
     width: 100%;
     height: fit-content;
     background-color: rgb(0, 0, 0);
@@ -357,9 +365,12 @@ h6 {
     /* text-align: center; */
 }
 
-#footer h1,
+#footer h1 {
+    text-align: center;
+    margin-top: -20px;
+}
+
 p {
-    /* background-color: red; */
     text-align: center;
 }
 
@@ -382,7 +393,6 @@ p {
 }
 
 #footer .footer .lists {
-    /* background-color: rgb(255, 255, 255); */
     margin: auto;
     padding: 0;
     box-sizing: border-box;
